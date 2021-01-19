@@ -1,0 +1,7 @@
+1. Visit particular shoe model in stockx.com.
+2. Then right click on that page, then click on inspect option.
+3.In top right of inspect page, there is option named as Network, so click on Network option and then refresh the page.
+4.Top right of the page Filter is written ,erase it and write there activity and you will observe a file will appear with name as activity?state.....  , click on that file, and then copy url in Request URL.
+5.Paste that url in postman software and send the request with page =1,limit=22000.
+6.You will get green table in json format, then click on Save Response to download green table.
+7. Python program is made to conver json files to csv format.
